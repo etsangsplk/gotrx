@@ -1,7 +1,9 @@
-package gotrax
+package gotrx
 
-import "github.com/otrv4/ed448"
-import . "gopkg.in/check.v1"
+import (
+	"github.com/otrv4/ed448"
+	. "gopkg.in/check.v1"
+)
 
 var sharedSym = [57]byte{
 	0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
