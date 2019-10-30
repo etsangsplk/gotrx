@@ -14,7 +14,7 @@ build:
 	go build -i
 
 deps:
-	go get -u github.com/golang/lint/golint
+	go get -u golang.org/x/lint/golint
     #dep should also be installed, but globally.
 
 lint:
